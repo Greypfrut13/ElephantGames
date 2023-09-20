@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class NextSceneButton : MonoBehaviour
+public class LoadSceneButton : MonoBehaviour
 {
+    [SerializeField] private int _sceneLoadIndex;
+
     private Button _button;
 
     private void Start() 
@@ -23,8 +25,6 @@ public class NextSceneButton : MonoBehaviour
 
     public void LoadNextScene()
     {
-        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        SceneManager.LoadScene(_sceneLoadIndex);
     }
 }
