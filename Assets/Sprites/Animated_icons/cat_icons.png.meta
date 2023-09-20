@@ -787,7 +787,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      cat_icons_31: -979725070
       cat_icons_5: -2033605379
       cat_icons_20: -519342804
       cat_icons_29: 1640733318
@@ -817,8 +816,9 @@ TextureImporter:
       cat_icons_14: -2087796067
       cat_icons_18: -1415225825
       cat_icons_7: 1172446295
-      cat_icons_23: -1502826364
+      cat_icons_31: -979725070
       cat_icons_6: -1954348969
+      cat_icons_23: -1502826364
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

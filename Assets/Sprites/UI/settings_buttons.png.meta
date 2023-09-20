@@ -1211,11 +1211,12 @@ TextureImporter:
       settings_buttons_25: -337761551
       settings_buttons_42: -1297815823
       settings_buttons_0: -397145441
-      settings_buttons_19: -166420666
       settings_buttons_20: 1921944067
+      settings_buttons_19: -166420666
       settings_buttons_28: -1865151401
-      settings_buttons_32: 890750821
       settings_buttons_38: 747775053
+      settings_buttons_49: -1341024
+      settings_buttons_32: 890750821
       settings_buttons_7: -1645841275
       settings_buttons_24: 1698736634
       settings_buttons_3: 23188574
@@ -1230,7 +1231,6 @@ TextureImporter:
       settings_buttons_40: 285466737
       settings_buttons_41: -1258673973
       settings_buttons_36: 1588747967
-      settings_buttons_49: -1341024
       settings_buttons_13: -1279869966
       settings_buttons_46: 1177774088
       settings_buttons_12: -129612239
