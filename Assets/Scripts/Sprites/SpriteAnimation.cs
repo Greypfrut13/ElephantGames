@@ -8,7 +8,7 @@ public class SpriteAnimation : MonoBehaviour
 
     private Animator _animator;
 
-    public bool _isPlayingAnimation = false;
+    private bool _isPlayingAnimation = false;
 
     private void Start() 
     {
