@@ -713,8 +713,9 @@ GameObject:
   - component: {fileID: 1245734980}
   - component: {fileID: 1245734979}
   - component: {fileID: 1245734978}
+  - component: {fileID: 1245734981}
   m_Layer: 5
-  m_Name: Button
+  m_Name: NextSceneButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -739,7 +740,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245734978
 MonoBehaviour:
@@ -805,8 +806,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 857822717, guid: 21b15173018775d4b869c4e65202b762, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -823,6 +824,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245734976}
   m_CullTransparentMesh: 1
+--- !u!114 &1245734981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245734976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d66eaac74faa84884075a8a4b3cf9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1302045794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1017,7 @@ GameObject:
   - component: {fileID: 1415217827}
   - component: {fileID: 1415217829}
   - component: {fileID: 1415217828}
+  - component: {fileID: 1415217830}
   m_Layer: 0
   m_Name: cat_2
   m_TagString: Untagged
@@ -1124,6 +1138,33 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8125, y: 0.9375}
   m_EdgeRadius: 0
+--- !u!114 &1415217830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415217825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f99225864c3ece45ac56ff3772ed3d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _onClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1245734981}
+        m_TargetAssemblyTypeName: NextSceneButton, Assembly-CSharp
+        m_MethodName: ActivateButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1441542993
 GameObject:
   m_ObjectHideFlags: 0
